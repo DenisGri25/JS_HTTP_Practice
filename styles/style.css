@@ -1,0 +1,29 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    visibility: hidden;
+    background-color: rgba(179, 175, 175, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal--visible {
+    visibility: visible;
+}
+
+.modal__block {
+    width: 40%;
+    height: 30%;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
